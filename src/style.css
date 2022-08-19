@@ -1,0 +1,25 @@
+:root {
+  --primary-portfolio-volor: black;
+  --secondary-porfolio-color: #333333;
+  --aditional-portfolio-color: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 15px;
+}
+.navbar {
+  padding-left: 80px;
+}
+
+.coder {
+  margin-top: 100px;
+  text-align: right;
+}
+.woman {
+  margin-top: 100px;
+  text-align: left;
+}
