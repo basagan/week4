@@ -27,7 +27,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container-fluid">
+        <div class="container-fluid line fs-4 fw-lighter">
           <a class="navbar-brand" href="#">
             <img src="image/logo.jpeg" alt="logo" width="50" />
           </a>
@@ -45,36 +45,89 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">about</a>
-              <a class="nav-link" href="#">portfolio</a>
-              <a class="nav-link" href="#">contact</a>
+              <a class="nav-link active" href="#">portfolio</a>
+              <a class="nav-link active" href="#">contact</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero pb-5">
         <div class="container text-center">
           <div class="row">
             <div class="col-3 coder">
-              <h1>coder</h1>
-              <h4>
+              <h1><span><</span>coder<span>></span></h1>
+              <h4 class="text-muted">
                 Front end developer who writes clean, elegant and efficient
                 code.
               </h4>
             </div>
             <div class="col-6">
               <img
-                src="image/fullFace.jpg"
+                src="image/face1.jpeg"
                 alt="woman face"
-                class="img-fluid d-block"
+                class="img-fluid face"
               />
             </div>
             <div class="col-3 woman">
               <h1>woman</h1>
-              <h4>
+              <h4 class="text-muted">
                 Loving wife, future conscious mother and an attentive daughter.
               </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="linebreak mt-5">
+        <h4 class="text-muted text-center">Some of my latest work</h4>
+      </div>
+
+      <section class="projects">
+        <div class="project-1">
+          <div class="container">
+            <div class="row">
+              <div class="col d-none d-lg-block">
+                <img
+                  src="image/weather.png"
+                  alt="weather app"
+                  class="img-fluid project"
+                />
+              </div>
+              <div class="col project-description text-center">
+                <h1 class="mb-5 fw-semibold">weather app</h1>
+                <h4 class="lh-lg mb-5">
+                  App provides weather conditions: current temperature in °C/°F,
+                  min and max temperature of the day, relative humidity and wind
+                  speed, in addition, week in future weather forecast. It
+                  reflects the weather updates of more than 200,000 cities
+                  around the world for free.
+                </h4>
+                <button class="btn btn-dark p-4">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-2">
+          <div class="container">
+            <div class="row">
+              <div class="col project-description text-center">
+                <h1 class="mb-5 fw-semibold">mongolian food</h1>
+                <h4 class="lh-lg mb-5">
+                  App introduces the main dish of Biryat-Mongolian cuisine. It
+                  allows you to get a simple recipe, sends it to your email.
+                </h4>
+                <button class="btn btn-dark p-4">Learn more</button>
+              </div>
+
+              <div class="col d-none d-lg-block">
+                <img
+                  src="image/mongolian-food.png"
+                  alt="weather app"
+                  class="img-fluid"
+                />
+              </div>
             </div>
           </div>
         </div>
