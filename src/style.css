@@ -11,8 +11,11 @@ body {
   .face {
     width: auto;
   }
-  h1 {
+  h1.homepage {
     font-size: 30px !important;
+  }
+  h4.text-muted {
+    display: none;
   }
   .coder,
   .woman {
@@ -20,13 +23,17 @@ body {
   }
   .project-description {
     text-align: center;
-    padding-top: 20px !important;
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
   }
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
+}
+h3 {
+  font-size: 1.5rem;
 }
 h4 {
   font-size: 15px;
@@ -37,11 +44,9 @@ h4 {
 }
 .coder {
   margin-top: 100px;
-  text-align: right;
 }
 .woman {
   margin-top: 100px;
-  text-align: left;
 }
 .linebreak {
   height: 1px;
@@ -67,5 +72,10 @@ h4 {
   padding: 120px 90px;
 }
 .project {
-  padding: 30px 20px 0 50px;
+  padding: 30px 20px 0 20px;
+}
+
+.about-photo {
+  padding: 30px 20px 80px 20px;
+  border-radius: 4px;
 }
