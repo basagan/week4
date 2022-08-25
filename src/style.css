@@ -7,6 +7,7 @@ body {
   --primary-portfolio-color: black;
   --secondary-porfolio-color: #333333;
   --aditional-portfolio-color: white;
+  --background-color: #f2f2f2;
 }
 @media (max-width: 960px) {
   .face {
@@ -39,6 +40,9 @@ h1 {
   font-size: 70px;
   font-weight: 700;
 }
+h2 {
+  font-size: 50px;
+}
 h3 {
   font-size: 1.2rem;
 }
@@ -46,13 +50,9 @@ h4 {
   font-size: 15px;
   font-weight: 300;
 }
-.content {
-  padding: 120px 90px;
-}
+
 /*Homepage style*/
-.line {
-  padding: 0 100px;
-}
+
 .coder {
   margin-top: 100px;
 }
@@ -87,6 +87,9 @@ h4 {
   padding: 30px 20px 80px 20px;
   border-radius: 4px;
 }
+.content {
+  padding: 120px 90px;
+}
 /*Contact style*/
 i.icon {
   font-size: 30px;
@@ -110,4 +113,23 @@ h3.d-inline {
 .instagram {
   color: #b7327c;
   text-decoration: none;
+}
+
+/*Footer*/
+footer {
+  margin-top: 100px;
+  background-color: var(--background-color);
+}
+h4.email {
+  margin-top: 60px;
+  color: var(--primary-portfolio-color);
+  font-size: 25px !important;
+}
+.links a i {
+  padding: 15px;
+  background-color: var(--background-color);
+  border-radius: 50%;
+}
+.links a i:hover {
+  color: var(--secondary-porfolio-color);
 }
