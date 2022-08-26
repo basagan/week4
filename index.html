@@ -21,13 +21,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <meta name="description" content="Tatiana Daraev Portfolio" />
-    <title>Tatiana Daraev</title>
+    <meta
+      name="description"
+      content="Tatiana Daraev is a Fron-End Developer, based in USA"
+    />
+    <title>Fron-End Developer - Tatiana Daraev</title>
   </head>
   <body>
     <header>
       <!--Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
         <div class="container">
           <div class="container-fluid fs-4 fw-lighter d-flex">
             <a class="navbar-brand" href="index.html">
@@ -46,11 +49,25 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="about.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="about.html"
+                  title="about Tatiana"
                   >about</a
                 >
-                <a class="nav-link active" href="portfolio.html">portfolio</a>
-                <a class="nav-link active" href="contact.html">contact</a>
+                <a
+                  class="nav-link active"
+                  href="portfolio.html"
+                  title="Tatiana's work"
+                  >portfolio</a
+                >
+                <a
+                  class="nav-link active"
+                  href="contact.html"
+                  title="Tatiana's contact"
+                  >contact</a
+                >
               </div>
             </div>
           </div>
@@ -59,7 +76,7 @@
     </header>
     <!--Content-->
     <main>
-      <section class="first-block pb-5">
+      <section class="first-block">
         <div class="container text-center">
           <div class="row">
             <div class="col-3 coder">
@@ -86,54 +103,57 @@
         </div>
       </section>
 
-      <div class="linebreak mt-5">
-        <h4 class="text-muted text-center">Some of my latest work</h4>
-      </div>
+      <h4 class="linebreak text-muted">Some of my latest work</h4>
 
       <section>
-        <div class="project-1">
-          <div class="container">
-            <div class="row">
-              <div class="col d-none d-lg-block">
-                <img
-                  src="image/weather.png"
-                  alt="weather app"
-                  class="img-fluid project"
-                />
-              </div>
-              <div class="col content text-center">
-                <h1 class="mb-5 fw-semibold">weather app</h1>
-                <h4 class="lh-lg mb-5">
-                  App provides weather conditions: current temperature in °C/°F,
-                  min and max temperature of the day, relative humidity and wind
-                  speed, in addition, week in future weather forecast. It
-                  reflects the weather updates of more than 200,000 cities
-                  around the world for free.
-                </h4>
-                <button class="btn btn-dark p-4">Learn more</button>
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col d-none d-lg-block">
+              <img
+                src="image/weather.png"
+                alt="weather app"
+                class="img-fluid project"
+              />
+            </div>
+            <div class="col content text-center">
+              <h1 class="mb-5 fw-semibold">weather app</h1>
+              <h4 class="lh-lg mb-5">
+                App provides weather conditions: current temperature in °C/°F,
+                min and max temperature of the day, relative humidity and wind
+                speed, in addition, week in future weather forecast. It reflects
+                the weather updates of more than 200,000 cities around the world
+                for free.
+              </h4>
+              <button class="btn btn-dark p-4" title="weather app">
+                <a href="portfolio.html" title="weather app" class="button"
+                  >Learn more</a
+                >
+              </button>
             </div>
           </div>
         </div>
-        <div class="project-2">
-          <div class="container">
-            <div class="row">
-              <div class="col content text-center">
-                <h1 class="mb-5 fw-semibold">mongolian food</h1>
-                <h4 class="lh-lg mb-5">
-                  App introduces the main dish of Biryat-Mongolian cuisine. It
-                  allows you to get a simple recipe, sends it to your email.
-                </h4>
-                <button class="btn btn-dark p-4">Learn more</button>
-              </div>
 
-              <div class="col d-none d-lg-block">
-                <img
-                  src="image/mongolian-food.png"
-                  alt="weather app"
-                  class="img-fluid"
-                />
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col content text-center">
+              <h1 class="mb-5 fw-semibold">mongolian food</h1>
+              <h4 class="lh-lg mb-5">
+                App introduces the main dish of Biryat-Mongolian cuisine. It
+                allows you to get a simple recipe, sends it to your email.
+              </h4>
+              <button class="btn btn-dark p-4" title="mongolian-food">
+                <a href="portfolio.html" title="mongoliam food" class="button">
+                  Learn more</a
+                >
+              </button>
+            </div>
+
+            <div class="col d-none d-lg-block">
+              <img
+                src="image/mongolian-food.png"
+                alt="weather app"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
@@ -147,7 +167,11 @@
             <h4>Let's work together</h4>
           </div>
           <div class="col">
-            <button class="btn btn-dark p-4">Contact me</button>
+            <button class="btn btn-dark p-4">
+              <a href="contact.html" title="Tatiana's contact" class="button">
+                Contact me</a
+              >
+            </button>
           </div>
         </div>
       </div>
@@ -157,17 +181,36 @@
         ><h4 class="email">basagan.nyc@gmail.com</h4></a
       >
       <div class="links text-center">
-        <a href="https://www.facebook/tatiana.daraev" class="facebook">
+        <a
+          href="https://www.facebook.com/tatiana.daraev"
+          class="facebook"
+          target="_blank"
+        >
           <i class="fa-brands fa-square-facebook icon"></i
         ></a>
-        <a href="https://www.linkedin/tatiana.daraev" class="linkedIn">
+        <a
+          href="https://www.linkedin.com/tatiana.daraev"
+          class="linkedIn"
+          target="_blank"
+        >
           <i class="fa-brands fa-linkedin icon"></i
         ></a>
-        <a href="https://www.instagram/tatiana.daraev" class="instagram">
+        <a
+          href="https://www.instagram.com/tatiana.daraev"
+          class="instagram"
+          target="_blank"
+        >
           <i class="fa-brands fa-square-instagram icon"></i
         ></a>
       </div>
     </footer>
+    <h4 class="text-center mt-5">
+      ✌🏻 This project was codede by Tatiana Daraev, <br />
+      and it's
+      <a href="https://github.com/basagan" title="Tatiana's GitHub"
+        >open-sourse</a
+      >
+    </h4>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

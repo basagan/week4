@@ -27,10 +27,10 @@
   <body>
     <header>
       <!--Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
         <div class="container">
           <div class="container-fluid fs-4 fw-lighter d-flex">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" title="home">
               <img src="image/logo.jpeg" alt="logo" width="50" />
             </a>
             <button
@@ -46,11 +46,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="about.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="about.html"
+                  title="About Tatiana"
                   >about</a
                 >
-                <a class="nav-link active" href="#">portfolio</a>
-                <a class="nav-link active" href="contact.html">contact</a>
+                <a class="nav-link active" href=>portfolio</a>
+                <a
+                  class="nav-link active"
+                  href="contact.html"
+                  title="Tatiana's contact"
+                  >contact</a
+                >
               </div>
             </div>
           </div>
@@ -60,8 +69,8 @@
     <main>
       <!--Content-->
       <section>
-        <div class="container text-center">
-          <h1 class="mt-5">portfolio.</h1>
+        <div class="container text-center content">
+          <h1>portfolio.</h1>
           <h2 class="mt-3">Check out some of my latest case studies.</h2>
           <h4 class="mt-4">
             For anyone who wants to start learning code, this workshop is very
@@ -91,6 +100,57 @@
           </div>
         </div>
       </section>
+       <footer>
+      <div class="container text-center mb-5 pt-5">
+        <div class="row">
+          <div class="col">
+            <h2>Work Inquiry</h2>
+            <h4>Let's work together</h4>
+          </div>
+          <div class="col">
+            <button class="btn btn-dark p-4">
+              <a href="contact.html" title="Tatiana's contact" class="button">
+                Contact me</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <a
+        href="mailto:basagan.nyc@gmail.com"
+        class="text-center text-decoration-none"
+        ><h4 class="email">basagan.nyc@gmail.com</h4></a
+      >
+      <div class="links text-center">
+        <a
+          href="https://www.facebook.com/tatiana.daraev"
+          class="facebook"
+          target="_blank"
+        >
+          <i class="fa-brands fa-square-facebook icon"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/tatiana.daraev"
+          class="linkedIn"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin icon"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/tatiana.daraev"
+          class="instagram"
+          target="_blank"
+        >
+          <i class="fa-brands fa-square-instagram icon"></i
+        ></a>
+      </div>
+    </footer>
+      <h4 class="text-center mt-5">
+        ✌🏻 This project was codede by Tatiana Daraev, <br /> and it's
+        <a href="https://github.com/basagan" title="Tatiana's GitHub"
+          >open-sourse</a
+        >
+      </h4>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
